@@ -9,7 +9,12 @@ Page({
       content: 'views',
       class: 'header',
       show: true
-    }
+    },
+    fruits: [
+      'apple',
+      'banana',
+      'lenmon'
+    ]
   },
 
   /**
