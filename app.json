@@ -1,7 +1,9 @@
 {
-  "pages":[
+  "pages": [
+    "pages/wxml/wxml",
     "pages/index/index",
     "pages/event/event"
+
   ],
   "window": {
     "navigationBarBackgroudColor": "#fff",
@@ -22,6 +24,12 @@
         "pagePath": "pages/index/index",
         "iconPath": "assets/icons/home.png",
         "selectedIconPath": "assets/icons/home-active.png"
+      },
+      {
+        "text": "视图",
+        "pagePath": "pages/wxml/wxml",
+        "iconPath": "assets/icons/web.png",
+        "selectedIconPath": "assets/icons/web-active.png"
       },
       {
         "text": "活动",
