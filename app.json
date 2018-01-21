@@ -1,5 +1,13 @@
 {
   "pages":[
     "pages/index/index"
-  ]
+  ],
+  "window": {
+    "navigationBarBackgroudColor": "#fff",
+    "navigationBarTitleText": "jujiu.com",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#ededed"
+  }
 }
