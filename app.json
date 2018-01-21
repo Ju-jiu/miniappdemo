@@ -1,6 +1,7 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/index/index",
+    "pages/event/event"
   ],
   "window": {
     "navigationBarBackgroudColor": "#fff",
@@ -9,5 +10,17 @@
     "enablePullDownRefresh": true,
     "backgroundTextStyle": "dark",
     "backgroundColor": "#ededed"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "活动",
+        "pagePath": "pages/event/event"
+      }
+    ]
   }
 }
