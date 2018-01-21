@@ -12,6 +12,10 @@
     "backgroundColor": "#ededed"
   },
   "tabBar": {
+    "color": "rgba(0, 0, 0, 0.6)",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#ededed",
     "list": [
       {
         "text": "首页",
