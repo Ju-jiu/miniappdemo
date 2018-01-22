@@ -6,3 +6,16 @@
 image {
   width: 100%;
 }
+
+movable-area {
+  width: 100vw;
+  height:50vh;
+  background: #ededed;
+  margin: 3px;
+}
+
+movable-view {
+  width: 90px;
+  height: 90px;
+  background: #6435c9;
+}

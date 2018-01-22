@@ -11,3 +11,13 @@
   </block>
 
 </swiper>
+
+<movable-area>
+  <movable-view
+    direction="all"
+    inertia="{{true}}"
+    out-of-bounds="{{true}}"
+    x="130"
+    y="100"
+  />
+</movable-area>
