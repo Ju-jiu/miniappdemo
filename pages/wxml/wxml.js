@@ -14,7 +14,14 @@ Page({
       'apple',
       'banana',
       'lenmon'
-    ]
+    ],
+    currentView: 'red'
+  },
+
+  setScrollView(event) {
+    this.setData({
+      currentView: event.target.dataset.view
+    })
   },
 
   tapHandler(event) {
