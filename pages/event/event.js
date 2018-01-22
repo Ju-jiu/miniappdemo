@@ -1,4 +1,12 @@
 Page({
+
+  data: {
+    images: [
+      "/assets/images/demo-1.jpg",
+      "/assets/images/demo-2.jpg",
+      "/assets/images/demo-3.jpg"
+    ]
+  },
   onLoad() {
     console.log('页面加载')
   },

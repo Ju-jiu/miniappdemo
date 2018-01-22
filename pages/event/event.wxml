@@ -1,8 +1,13 @@
-<view class="container vertical centered">
-  <view>
-    <text class="header">events !</text>
-  </view>
-</view>
-<view class="image">
-  <image src="/assets/images/landscape.png"></image>
-</view>
+<swiper
+  indicator-dots="{{true}}"
+  indicator-color="rgba(255, 255, 255, 0.3)"
+  indicator-active-color="#ffffff"
+>
+
+  <block wx:for="{{images}}">
+  <swiper-item>
+    <image src="{{item}}" />
+  </swiper-item>
+  </block>
+
+</swiper>
