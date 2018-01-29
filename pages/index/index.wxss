@@ -8,7 +8,7 @@ form {
   height: 40vh;
 }
 
-input, textarea, picker {
+input, textarea, pick {
   background: #ffffff;
   padding: 8px;
   margin: 8px;
