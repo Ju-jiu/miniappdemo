@@ -5,11 +5,14 @@ Page({
   data: {
     greeting: ''
   },
-  tapGreeting(event) {
-    console.log(event)
-    this.setData({
-      greeting: helper.randItem(app.globalData.greeting)
-    })
+  // tapGreeting(event) {
+  //   console.log(event)
+  //   this.setData({
+  //     greeting: helper.randItem(app.globalData.greeting)
+  //   })
+  // },
+  formSubmit(event) {
+    console.log(event.detail.value)
   },
   onLoad() {
     console.log('页面加载')

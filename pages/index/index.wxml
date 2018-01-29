@@ -1,6 +1,12 @@
 <view class="container vertical centered">
-  <view bindtap="tapGreeting">
-    <text class="header">{{greeting}}</text>
+  <view>
+    <form bindsubmit="formSubmit">
+      <labal for="slider">
+        <text>进度条</text>
+      </labal>
+      <slider id="slider" name="slider" show-value />
+      <button form-type="submit">提交</button>
+    </form>
   </view>
 </view>
 <view class="image">
