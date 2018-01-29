@@ -14,6 +14,11 @@ Page({
   formSubmit(event) {
     console.log(event.detail.value)
   },
+
+  inputHandler(event) {
+    console.log(event.detail.value)
+  },
+
   onLoad() {
     console.log('页面加载')
     this.setData({
