@@ -36,9 +36,12 @@
           range="{{pickers}}"
           bindchange="inputHandler"
           name="picker"
+          mode="time"
+          start="00:00"
+          end="24:00"
        >
           <view>
-            <text>{{pickers[pick]}}</text>
+            <text>{{pick}}</text>
           </view>
        </picker>
 

@@ -23,7 +23,7 @@ Page({
       '泰国',
       '日本'
     ],
-    pick: 0
+    pick: '09:00'
   },
   // tapGreeting(event) {
   //   console.log(event)
