@@ -3,7 +3,21 @@ const app = getApp()
 
 Page({
   data: {
-    greeting: ''
+    greeting: '',
+    items: [
+      {
+        name: '中国',
+        value: 'CN'
+      },
+      {
+        name: '泰国',
+        value: 'TH'
+      },
+      {
+        name: '日本',
+        value: 'JP'
+      },
+    ]
   },
   // tapGreeting(event) {
   //   console.log(event)
