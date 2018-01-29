@@ -17,7 +17,13 @@ Page({
         name: '日本',
         value: 'JP'
       },
-    ]
+    ],
+    pickers: [
+      '中国',
+      '泰国',
+      '日本'
+    ],
+    pick: 0
   },
   // tapGreeting(event) {
   //   console.log(event)
@@ -30,6 +36,9 @@ Page({
   },
 
   inputHandler(event) {
+    this.setData({
+      pick: event.detail.value
+    })
     console.log(event.detail.value)
   },
 
